@@ -18,13 +18,13 @@ if horario == "noite":
     if caracteristica1 == "garras":
         if caracteristica2 == "evita prata":
             print("Lobisomen")
-elif horario == "dia" or "noite":
+if horario == "dia" or "noite":
     if caracteristica1 == "rápido":
         if caracteristica2 == "ataca em grupo":
             print("Nekker")
-elif horario == "dia" or "noite":
+if horario == "dia" or "noite":
     if caracteristica1 == "não tem olhos":
         if caracteristica2 == "imita vozes humanas":
             print("Mímico")
-else:
-    print("Criatura desconhecida. Espere pelo pior!")
+
+print("Criatura desconhecida. Espere pelo pior!")
