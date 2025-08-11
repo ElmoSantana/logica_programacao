@@ -1,7 +1,14 @@
-for c in range(1, 11):
-    velocidade = float(input("Informe a velocidade em km: "))
+def separar (lista):
 
-if c /10 > 60:
-    print("Velocidade média acima do limite estabelecido.")
-else:
-    print("Velocidade média está no limite estabelecido.")
+lista_numeros = []
+
+while(True):
+    usuario_numero = int(input("Informe uma sequência de números (0 para encerrar): "))
+    if (usuario_numero == 0):
+        return 
+    
+    lista_numeros.append(usuario_numero)
+
+print(lista_numeros)
+
+
