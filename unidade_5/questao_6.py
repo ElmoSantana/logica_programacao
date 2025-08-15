@@ -11,11 +11,11 @@ computador = randint (1, 100)
 print("Tente adivinhar em qual número pensei.")
 jogador = int(input("Escolha um número entre 1 e 100: "))
 
-if jogador >computador:
-    print("Seu número é maior que o meu. Tente novamente.")    
-    
-elif jogador <computador:
-    print("Seu número é menor que o meu. Tente novamente.")
+if jogador > computador:
+    print("Seu número é maior que o meu. Tente novamente.")
+
+elif jogador < computador:
+        print("Seu número é menor que o meu. Tente novamente.")
 
 else:
     print("Parabéns! Você conseguiu adivinhar o número.")

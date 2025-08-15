@@ -1,3 +1,5 @@
-n = int(input("Digite um valor: "))
-for c in range(0, n):
-    print(c)
+frase = str(input("Digite uma frase: "))
+for vogais in frase:
+    if vogais.lower() in 'aãáàeéiíoõóuú':
+        tamanho = len(vogais)
+        print('O número de vogais nessa frase é de: ', tamanho)
