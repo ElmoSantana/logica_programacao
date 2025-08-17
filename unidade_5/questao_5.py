@@ -13,4 +13,4 @@ for i in range(1, 10000):
     else:
         numeros[1].append(sequencia)
 
-print(f"Os números ímpares informados foram: {numeros[0]}")
+print(f"Os números negativos informados foram: {numeros[0]}")
