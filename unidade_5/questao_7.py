@@ -4,8 +4,6 @@ verificação da letra ser vogal."""
 
 texto = input("Digite uma frase: ")
 vogais = 'aãáàeéiíoõóuú'
-contador = 0
 for letra in texto:
     if letra in vogais:
-        contador += 1
-        print("Existe {} vogais nesta frase que são: {}".format(contador, letra))
+        print(f"Existem {texto.count(letra)} vogais nesta frase que são: {letra}")
